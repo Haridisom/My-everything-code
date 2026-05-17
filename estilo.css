@@ -1,0 +1,31 @@
+ .lista1{
+    display: grid;
+    background-color: #ff5cd4;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 9px;
+    height: 17vh;
+
+}
+
+ .item-a,
+ .item-b,
+ .item-c {  
+   border-radius: 7px;
+   text-align: center;
+   align-content: center; 
+}
+
+
+ .item-a{
+    background-color: #d56fcc;
+ }
+ 
+ .item-b{
+    background-color: #9b558d;
+ }
+
+ .item-c{
+    background-color: #65405e;
+ }
